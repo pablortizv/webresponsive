@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    Principal
-    <app2/>
+        <DemoProduct/>
   </div>
 </template>
 
 <script>
   import App2 from "./App2.vue";
+  import DemoProduct from "./DemoProduct.vue";
   export default {
-  
     name: 'app',
     components: {
-      App2
+      App2,
+      DemoProduct
     }
   }
 </script>
