@@ -3,6 +3,7 @@
     <Header/>
     <DemoProduct/>
     <Body/>
+    <h1>1</h1>
   </dir>
 </template>
 
