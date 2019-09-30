@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import { Icon, InlineIcon } from '@iconify/react';
-import speedometerIcon from '@iconify/icons-simple-line-icons/speedometer';
+// import { Icon, InlineIcon } from '@iconify/react';
+// import speedometerIcon from '@iconify/icons-simple-line-icons/speedometer';
 export default {
     
 }
