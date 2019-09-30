@@ -1,50 +1,52 @@
 <template>
     <div class="container-fluid p-0">
-        <div class="row mt-5 mb-3">
-            <div class="col-md-12 text-center mb-4"><h1>Comparativa en el mercado</h1></div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="far fa-clock fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="container comparativa">
+            <div class="row mt-5 mb-3">
+                <div class="col-md-12 text-center mb-4"><h1><span>C</span>omparativa en el mercado</h1><div class="border_h1"></div></div>
             </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-archway fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="far fa-clock fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-archway fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-hand-holding-usd fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-stopwatch fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-hand-holding-usd fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-stopwatch fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-search-dollar fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="far fa-hand-pointer fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-calculator fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-3 col-sm-3 col-md-3 text-center box">
-                <div class="border_icon"><i class="fas fa-wallet fa-3x"></i></div>
-                <h3>LOREM</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row mt-4">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-search-dollar fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="far fa-hand-pointer fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-calculator fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center box">
+                    <div class="border_icon"><i class="fas fa-wallet fa-3x"></i></div>
+                    <h3>LOREM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
         </div>
         <div class="row mt-4">
@@ -57,6 +59,7 @@
 
                         <div class="testimonio">
                             <h1>Testimonio 1</h1>
+                            <div class="border_h1"></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Impedit nemo incidunt eos aspernatur, dicta alias excepturi 
                             nisi sunt numquam repellat voluptas ratione eaque optio mollitia 
@@ -67,6 +70,7 @@
 
                         <div class="testimonio">
                             <h1>Testimonio 2</h1>
+                            <div class="border_h1"></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Impedit nemo incidunt eos aspernatur, dicta alias excepturi 
                             nisi sunt numquam repellat voluptas ratione eaque optio mollitia 
@@ -77,6 +81,7 @@
 
                         <div class="testimonio">
                             <h1>Testimonio 3</h1>
+                            <div class="border_h1"></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Impedit nemo incidunt eos aspernatur, dicta alias excepturi 
                             nisi sunt numquam repellat voluptas ratione eaque optio mollitia 
@@ -87,6 +92,7 @@
 
                         <div class="testimonio">
                             <h1>Testimonio 4</h1>
+                            <div class="border_h1"></div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Impedit nemo incidunt eos aspernatur, dicta alias excepturi 
                             nisi sunt numquam repellat voluptas ratione eaque optio mollitia 
@@ -181,6 +187,7 @@ export default {
 
     .testimonio p{
         margin-left: 12px;
+        margin-top: 10px;
         font-style: italic;
         font-size: 16pt;
     }
@@ -211,5 +218,18 @@ export default {
         content: "\f10e";*/
         bottom: -30px;
         margin-left: 15px;
+    }
+    .comparativa h1{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .comparativa .border_h1{
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+    }
+    .border_h1{
+         border-top: 5px solid rgb(14, 199, 255);
+         width: 60px;
     }
 </style>

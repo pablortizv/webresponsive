@@ -4,8 +4,12 @@
     <DemoProduct/>
     <producto/>
     <Body/>
-
+    </axs-footer>
   </div>
+    
+
+
+
 </template>
 
 <script>
@@ -14,6 +18,7 @@
   import Header from './Header.vue';
   import producto from './producto.vue';
   import Body from './Body.vue';
+  import axsFooter from "./axsFooter";
   export default {
     name: 'app',
     components: {
@@ -21,7 +26,9 @@
       DemoProduct,
       Header,
       producto,
-      Body
+      Body,
+      xsFooter
+
     }
   }
 </script>
