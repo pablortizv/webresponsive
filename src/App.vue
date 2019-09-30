@@ -22,7 +22,6 @@
       DemoProduct,
       Header,
       Body,
-
         axsFooter
 
     }

@@ -1,8 +1,8 @@
 <template>
 
   <!-- Footer -->
-  <footer class="f-own-main mt-2">
-    <div class="container-fluid ">
+  <footer>
+    <div class="container-fluid">
       <div class="row ">
         <div class="col-xl-6 col-md-6 col-sm-12 mt-3">
           <h5 class="text-uppercase font-weight-bold">¿BUSCAS AXS?</h5>
@@ -88,6 +88,10 @@ button{
   i{
     color: white;
   }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
   hr{
     border: 0;
     height: 1px;
@@ -108,6 +112,9 @@ i:hover{
   .avisosTerminos:hover{
     text-shadow: black 3px 1px 3px;
   }
+  h6{
+    text-align: center;
+  }
   .btn-primary{
     background-color: #31b8c6;
   }
@@ -116,15 +123,20 @@ i:hover{
   }
 
   footer{
-    overflow: hidden;
+    /*overflow: hidden;
     position: absolute;
-    bottom: 0;
+    bottom: 0;*/
     width: 100%;
     background: linear-gradient( rgba(77, 77, 77, 0.8), rgba(9, 10, 10, 0.9) ), url(./assets/img/footer.jpg);
-
+    /*added after content*/
+    position: absolute;
+    left: 0;
+    overflow: hidden;
   }
   .list-group-horizontal{
-    margin: auto 0;
-    display: inline-flex;
+    /*margin: auto 0;
+    display: inline-flex;*/
+    display: flex;
+    justify-content: center;
   }
 </style>
