@@ -3,8 +3,10 @@
     <Header/>
     <DemoProduct/>
     <Body/>
-    <h1>1</h1>
+    <axs-footer></axs-footer>
   </dir>
+
+
 </template>
 
 <script>
@@ -12,13 +14,17 @@
   import DemoProduct from "./DemoProduct.vue";
   import Header from './Header.vue';
   import Body from './Body.vue';
+  import axsFooter from "./axsFooter";
   export default {
     name: 'app',
     components: {
       App2,
       DemoProduct,
       Header,
-      Body
+      Body,
+
+        axsFooter
+
     }
   }
 </script>
