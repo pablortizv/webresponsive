@@ -96,6 +96,9 @@
 @media (max-width: 1024px) {
         #headerText span{
         display: none;
+        }
+        .header{
+        background-position: center top;
     }
 }
 @media (max-width: 576px) {

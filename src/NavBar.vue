@@ -6,8 +6,8 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item nav-link">
+                    <anchor-router-link :to="{name: 'home', hash: '#producto'}" >Link</anchor-router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -38,7 +38,13 @@
         target.classList.add('transparentBG')
         }
     },false);
-export default {}
+    import AnchorRouterLink from "./components/VueAnchorRouterLink";
+export default {
+    name: "home",
+    components:{
+        AnchorRouterLink
+    }
+}
 </script>
 <style>
 .bgColorNav{
@@ -51,8 +57,9 @@ export default {}
 }.navbar-nav{
     padding-left: 10px
 }
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.9);
+.navbar-dark .navbar-nav .nav-link, .nav-link a{
+    color: rgba(255,255,255,.9) !important;
+    text-decoration: none;
 }
 @media (max-width: 576px) {
     .transparentBG .navbar-nav{
