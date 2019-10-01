@@ -3,15 +3,14 @@
     <section class="container-fluid">
       <div class="row text-center">
         <div class="col">
-          <h1 class="animated pulse w-auto" id="Product">Nuestros productos.</h1>
+          <h1 class="animated pulse w-auto" >Nuestros productos.</h1>
         </div>
       </div>
     </section>
     <div class="row">
-      <div class="col-sm"></div>
-      <div class="col-sm">
+      <div class="col align-self-center">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe
+          <iframe id="video"
             class="embed-responsive-item"
             src="https://www.youtube.com/embed/cBusDEvg9Tw"
             frameborder="0"
@@ -20,7 +19,6 @@
           ></iframe>
         </div>
       </div>
-      <div class="col-sm"></div>
     </div>
     <section class="carousel slide" data-ride="carousel" id="postsCarousel">
       <div class="container pt-0 mt-2">
