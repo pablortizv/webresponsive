@@ -32,7 +32,7 @@
                 <div class="card-body pt-2">
                   <h6 class="small text-wide p-b-2">Insight</h6>
                   <h2>
-                    <a href>Why Stuff Happens Every Year.</a>
+                    <a href>Responsive is Essential.</a>
                   </h2>
                 </div>
               </div>
@@ -43,7 +43,7 @@
                 <div class="card-body pt-2">
                   <h6 class="small text-wide p-b-2">Development</h6>
                   <h2>
-                    <a href>How to Make Every Line Count.</a>
+                    <a href>Responsive is Essential.</a>
                   </h2>
                 </div>
               </div>
@@ -73,7 +73,7 @@
                 <div class="card-body pt-2">
                   <h6 class="small text-wide p-b-2">Another</h6>
                   <h2>
-                    <a href>Tagline or Call-to-action.</a>
+                    <a href>Responsive is Essential.</a>
                   </h2>
                 </div>
               </div>
@@ -90,7 +90,7 @@
                     <span class="pull-xs-right">12.04</span> Category 1
                   </h6>
                   <h2>
-                    <a href>This is a Blog Title.</a>
+                    <a href>Responsive is Essential.</a>
                   </h2>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                 <div class="card-body pt-2">
                   <h6 class="small text-wide p-b-2">Category 3</h6>
                   <h2>
-                    <a href>Catchy Title of a Blog Post.</a>
+                    <a href>Responsive is Essential.</a>
                   </h2>
                 </div>
               </div>
@@ -114,8 +114,8 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="col-12 text-md-center lead">
+        <div class="row ">
+          <div class="col-12 text-center lead ">
             <a
               data-slide="prev"
               class="btn btn-secondary-outline"
@@ -149,11 +149,17 @@ export default {};
   width: 100%;
 }
 
+
+
 /* control image height */
 .card-img-top-250 {
-  max-height: 225px;
+  max-height: 250px;
   overflow: hidden;
-  padding-bottom: 10%;
+
+}
+
+.card{
+  max-height: 320px;
 }
 
 /* smoother transitions */
