@@ -144,7 +144,8 @@ i:hover{
   }
   @media screen and (min-width: 1200px){
     .marginDiv{
-      margin: auto 10%;
+      width: 600px;
+      margin: auto;
     }
   }
 
