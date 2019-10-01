@@ -5,21 +5,24 @@
     <div id="contacto" class="container-fluid">
       <div class="row ">
         <div class="col-xl-6 col-md-6 col-sm-12 mt-3">
-          <h5 class="text-uppercase font-weight-bold">¿BUSCAS AXS?</h5>
-          <p>Escríbenos a contacto@axs.lat o dinos si eres una empresa o un colaborador y nos contactaremos contigo lo antes posible.</p>
+          <div class="marginDiv">
+            <h5 class="text-uppercase font-weight-bold">¿BUSCAS AXS?</h5>
+            <p>Escríbenos a contacto@axs.lat o dinos si eres una empresa o un colaborador y nos contactaremos contigo lo antes posible.</p>
 
-          <form action="">
-            <input type="text" class="form-control" id="name" aria-describedby="nombre" placeholder="Nombre">
-            <input type="email" class="form-control" id="email" aria-describedby="correoElectonico" placeholder="Correo Electrónico">
-            <select class="form-control" id="option">
-              <option selected disabled>Soy un </option>
-              <option>Empleador</option>
-              <option>Colaborador</option>
-            </select>
-            <input type="text" class="form-control" id="company" aria-describedby="empresa" placeholder="Empresa">
-            <textarea class="form-control" id="message" rows="3" placeholder="Mensaje"></textarea>
-            <button type="button" class="btn btn-primary btn-block">Enviar</button>
-          </form>
+            <form action="">
+              <input type="text" class="form-control" id="name" aria-describedby="nombre" placeholder="Nombre">
+              <input type="email" class="form-control" id="email" aria-describedby="correoElectonico" placeholder="Correo Electrónico">
+              <select class="form-control" id="option">
+                <option selected disabled>Soy un </option>
+                <option>Empleador</option>
+                <option>Colaborador</option>
+              </select>
+              <input type="text" class="form-control" id="company" aria-describedby="empresa" placeholder="Empresa">
+              <textarea class="form-control" id="message" rows="3" placeholder="Mensaje"></textarea>
+              <button type="button" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+          </div>
+
         </div>
         <div class="col-xl-6 col-md-6 col-sm-12 mt-3">
           <img src="./assets/img/LogoAXS-white.png" class="img-fluid">
@@ -139,4 +142,10 @@ i:hover{
     display: flex;
     justify-content: center;
   }
+  @media screen and (min-width: 1200px){
+    .marginDiv{
+      margin: auto 10%;
+    }
+  }
+
 </style>
