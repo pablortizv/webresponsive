@@ -2,7 +2,7 @@
 
   <!-- Footer -->
   <footer>
-    <div class="container-fluid">
+    <div id="contacto" class="container-fluid">
       <div class="row ">
         <div class="col-xl-6 col-md-6 col-sm-12 mt-3">
           <h5 class="text-uppercase font-weight-bold">¿BUSCAS AXS?</h5>

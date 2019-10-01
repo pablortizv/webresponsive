@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div  id="producto" class="container-fluid">
     <section class="container-fluid">
       <div class="row text-center">
         <div class="col">

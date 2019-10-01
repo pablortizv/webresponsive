@@ -1,6 +1,6 @@
 <template>
       <!------------------------------------------------------------------------------------------->
-          <div id="producto" class="features-icons text-center">
+          <div id="compara" class="features-icons text-center">
               <div class="row degrade" style= "padding: 3rem;">
                <h1 class="letras">En AXS adelantamos tus ingresos ya trabajados, o te otorgamos un crédito mayor a largo plazo.</h1>
             <div class="col-lg-4">

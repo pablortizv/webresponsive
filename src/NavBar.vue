@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item nav-link">
-                    <anchor-router-link :to="{name: 'home', hash: '#producto'}" >Link</anchor-router-link>
+                    <anchor-router-link :to="{name: 'home', hash: '#producto'}" >Productos</anchor-router-link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item nav-link">
+                     <anchor-router-link :to="{name: 'home', hash: '#compara'}" >Compara</anchor-router-link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item nav-link">
+                    <anchor-router-link :to="{name: 'home', hash: '#contacto'}" >Contactanos</anchor-router-link>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
