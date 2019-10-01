@@ -173,6 +173,12 @@ export default {};
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
+.carousel{
+  overflow-x: auto
+}
+.text-center .col {
+  overflow: hidden
+}
 
 @media screen and (min-width: 900px) {
   #Product {
