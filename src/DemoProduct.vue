@@ -3,7 +3,7 @@
     <section class="container-fluid">
       <div class="row text-center">
         <div class="col">
-          <h1 class="animated pulse w-auto" >Nuestros productos.</h1>
+          <h1 class="animated pulse w-auto" id="Product">Nuestros productos.</h1>
         </div>
       </div>
     </section>
